@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script>
+        // Create a function to generate the ID card
+    function createIDCard() {
+    // Create the main ID card container
+    const idCard = document.createElement("div");
+    idCard.style.width = "300px";
+    idCard.style.height = "400px";
+    idCard.style.border = "2px solid #000";
+    idCard.style.borderRadius = "10px";
+    idCard.style.padding = "20px";
+    idCard.style.textAlign = "center";
+    idCard.style.fontFamily = "Arial, sans-serif";
+    idCard.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)";
+
+//     // Create the profile photo element
+    const photo = document.createElement("img");
+    photo.src = "https://via.placeholder.com/100"; // Placeholder image
+    photo.style.width = "100px";
+    photo.style.height = "100px";
+    photo.style.borderRadius = "50%";
+    photo.style.marginBottom = "20px";
+
+//     // Create the name element
+    const name = document.createElement("h2");
+    name.textContent = "Rajesh Nixx";
+    name.style.margin = "10px 0";
+    name.style.fontSize = "20px";
+
+//     // Create the designation element
+    const designation = document.createElement("p");
+    designation.textContent = "Software Engineer";
+    designation.style.margin = "5px 0";
+
+//     // Create the department element
+    const department = document.createElement("p");
+    department.textContent = "Development";
+    department.style.margin = "5px 0";
+
+//     // Create the ID number element
+    const idNumber = document.createElement("p");
+    idNumber.textContent = "ID: 123456789";
+    idNumber.style.margin = "5px 0";
+
+//     // Append all elements to the ID card container
+    idCard.appendChild(photo);
+    idCard.appendChild(name);
+    idCard.appendChild(designation);
+    idCard.appendChild(department);
+    idCard.appendChild(idNumber);
+
+//     // Append the ID card to the body of the document
+    document.body.appendChild(idCard);
+// }
+
+// // Call the function to create the ID card
+createIDCard();
+
+ }
+
+</script> -->
+
+
+<script>
+    
+        // Create a function to generate the ID card
+    // function createIDCard() {
+    // // Create the main ID card container
+    // const idCard = document.createElement("div");
+    // idCard.style.width = "300px";
+    // idCard.style.height = "400px";
+    // idCard.style.border = "2px solid #000";
+    // idCard.style.borderRadius = "10px";
+    // idCard.style.padding = "20px";
+    // idCard.style.textAlign = "center";
+    // idCard.style.fontFamily = "Arial, sans-serif";
+    // idCard.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)";
+
+//     // Create the profile photo element
+//     const photo = document.createElement("img");
+//     photo.src = "https://via.placeholder.com/100"; // Placeholder image
+//     photo.style.width = "100px";
+//     photo.style.height = "100px";
+//     photo.style.borderRadius = "50%";
+//     photo.style.marginBottom = "20px";
+
+// //     // Create the name element
+//     const name = document.createElement("h2");
+//     name.textContent = "Rajesh Nixx";
+//     name.style.margin = "10px 0";
+//     name.style.fontSize = "20px";
+
+// //     // Create the designation element
+//     const designation = document.createElement("p");
+//     designation.textContent = "Software Engineer";
+//     designation.style.margin = "5px 0";
+
+// //     // Create the department element
+//     const department = document.createElement("p");
+//     department.textContent = "Development";
+//     department.style.margin = "5px 0";
+
+// //     // Create the ID number element
+//     const idNumber = document.createElement("p");
+//     idNumber.textContent = "ID: 123456789";
+//     idNumber.style.margin = "5px 0";
+
+// //     // Append all elements to the ID card container
+//     // idCard.appendChild(photo);
+//     // idCard.appendChild(name);
+//     // idCard.appendChild(designation);
+//     // idCard.appendChild(department);
+//     // idCard.appendChild(idNumber);
+
+// //     // Append the ID card to the body of the document
+    // document.body.appendChild(idCard);
+// }
+
+// // // Call the function to create the ID card
+// createIDCard();
+
+
+
+
+
+function createIDCard() {
+    // Create the main ID card container
+    const idCard = document.createElement("div");
+    idCard.style.width = "300px";
+    idCard.style.height = "400px";
+    idCard.style.border = "2px solid #000";
+    idCard.style.borderRadius = "10px";
+    idCard.style.padding = "20px";
+    idCard.style.textAlign = "center";
+    idCard.style.fontFamily = "Arial, sans-serif";
+    idCard.style.boxShadow = "0 0 20px rgba(0, 0, 0, 0.2)";
+
+    document.body.appendChild(idCard);
+
+    const photo = document.createElement("img");
+    photo.src = "R.jpeg";
+    photo.style.width = "100px";
+    photo.style.height = "100px";
+    photo.style.borderRadius = "50%";
+    photo.style.marginBottom = "20px";
+    photo.style.marginTop = "50px"
+    idCard.appendChild(photo);
+
+    //     // Create the name element
+    const name = document.createElement("h2");
+    name.textContent = "Rajesh Nixx";
+    name.style.margin = "10px 0";
+    name.style.fontSize = "20px";
+    idCard.appendChild(name)
+    // name.style.marginTop = "50px";
+
+     // Create the designation element
+     const designation = document.createElement("p");
+     designation.textContent = "Software Engineer";
+     
+    //  designation.style.marginBottom = "10px";
+     idCard.appendChild(designation);
+
+     // Create the department element
+     const department = document.createElement("p");
+     department.textContent = "Front-end Developer";
+     idCard.appendChild(department);
+
+       // Create the ID number element
+    const idNumber = document.createElement("p");
+    idNumber.textContent = "ID: 7993407639";
+    idNumber.style.margin = "5px 0";
+    idCard.appendChild(idNumber);
+ 
+}
+createIDCard();
+</script>
+  
+
+
+
+    
+  </body>
+</html>
